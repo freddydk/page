@@ -1,9 +1,10 @@
 lsi: false
 safe: true
+source: docs
 incremental: false
 highlighter: rouge
 markdown: kramdown
-remote-theme: pages-themes/xayman
+remote-theme: cayman
 gist:
   noscript: false
 kramdown:
