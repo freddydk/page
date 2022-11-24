@@ -1,26 +1,33 @@
-# https://jekyllrb.com/docs/configuration/default/
+port: 4000
+host: 0.0.0.0
+safe: false
 
-title: kcws apis (js)
-description: kc-workspace api documentation for javascript language
 
-# Location
-plugins_dir         : _plugins
-layouts_dir         : _layouts
-data_dir            : _data
-includes_dir        : _includes
+### site serving configuration ###
+exclude: [CNAME, README.md, .gitignore]
+permalink: /:title ## disables post output
+timezone: null
+lsi: false
+markdown: kramdown
 
-# Conversion
-markdown            : kramdown
-highlighter         : rouge
-lsi                 : false
-excerpt_separator   : "\n\n"
-incremental         : false
 
-# https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
-theme: cayman
+### content configuration ###
+title:       "SinglePaged - Simple Jekyll template"
+keywords:    "SinglePaged, jekyll, template, github, blog, single page"
+description: "A single-page template for Jekyll based blogs (like what you'd use on github pages!)"
+source_link: "https://github.com/t413/SinglePaged"
+google_analytics_key: 
 
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: "default"
+
+### template colors, used site-wide via css ###
+colors:
+  black:     '#111111'
+  white:     '#f8f8f8'
+  blue:      '#49a7e9'
+  green:     '#9bcf2f'
+  purple:    '#c869bf'
+  orange:    '#fab125'
+  turquoise: '#0fbfcf'
+
+kramdown:
+  auto_ids:  false
