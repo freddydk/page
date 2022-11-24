@@ -4,7 +4,7 @@ source: docs
 incremental: false
 highlighter: rouge
 markdown: kramdown
-remote-theme: cayman
+theme: cayman
 gist:
   noscript: false
 kramdown:
