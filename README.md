@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "This is my page"
-permalink: /test
+permalink: /
 ---
 
 # Test
