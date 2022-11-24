@@ -10,4 +10,4 @@ This is a test
 
 ## line 2
 
-Yes, it works.
+Yes, it works [SOMEPAGE](/SOMEPAGE.md)
