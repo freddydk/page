@@ -4,7 +4,7 @@ source: [your repo's top level directory]
 incremental: false
 highlighter: rouge
 markdown: kramdown
-theme: minima
+remote-theme: cotes2020/jekyll-theme-chirpy
 gist:
   noscript: false
 kramdown:
